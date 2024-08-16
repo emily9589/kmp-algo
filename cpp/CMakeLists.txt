@@ -8,3 +8,4 @@ project(${PROJ_NAME})
 set(SRCS kmp.cpp)
 add_executable(${PROJ_NAME} ${SRCS})
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
